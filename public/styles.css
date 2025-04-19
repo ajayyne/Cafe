@@ -1,0 +1,415 @@
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url(../src/BodoniModa-VariableFont_opsz,wght.ttf);
+    font-weight: normal;
+}
+
+img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+button{
+
+    border: none;
+    box-shadow: 0px 2.5px burlywood;
+    text-transform: uppercase;
+    color:#6F4436;
+    border-radius: 10px;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+}
+
+/* home page */
+.home-product{
+    text-align: center;
+    margin-top: 5rem;
+}
+.home-product-img{
+    width: 20rem;
+    height: 20rem;
+}
+.home-banner{
+    width: 100vw;
+    filter: brightness(0.9);
+    border-radius: 0px;
+}
+.home-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-contact{
+    align-items: start;
+    margin-top: 5rem;
+}
+.home-contact img{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 8px 8px 0px 0px;
+}
+.home-contact-info{
+    padding: 1.5rem;
+    height: 15rem;
+    width: 20rem;
+    border-radius: 0px 0px 8px 8px;
+}
+.home-contact-info h2{
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+.home-btn{
+    margin: 0.5rem 0rem 3rem 0rem;
+    padding: 0.3rem 3rem 0.3rem 3rem;
+    width: 80%;
+}
+.home-btn h2{
+    font-size: 1rem;
+    margin-bottom: 0rem;
+}
+
+.productCard{
+    background-color: #6F4436;
+    color: white;
+    border-radius: 10px;
+    width: 15rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.189);
+}
+
+.productImg{
+    border-radius: 20px;
+    object-fit: cover;
+    width: 18rem;
+    height: 20rem;
+    border-radius: 5px;
+}
+
+.productCardBottom{
+    padding: 0rem 2rem 1rem 2rem;
+}
+.favourite{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 2rem;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    margin-top: 2rem;
+    width: 80%;
+    text-align: center !important;
+    padding-bottom: 4rem;
+    border-bottom: 2px solid #6F4436;
+}
+.home-heading{
+    display: flex;
+    justify-content: center;
+}
+.about p{
+    padding: 0rem 1rem 1rem 1rem;
+}
+.about h1{
+    width: 10rem;
+    background-color: rgb(255, 255, 255) !important;
+    font-family: 'Bodoni';
+    z-index: 999;
+    margin-top: -2rem;
+}
+.about button{
+    border-radius: 10px;
+    padding: 0rem 3rem 0rem 3rem;
+    font-weight: 600;
+}
+
+.bakery{
+    padding: 0rem 3rem 0rem 3rem;
+    margin-bottom: 3rem;
+}
+.home-product-name{
+    font-style: italic;
+    padding-bottom: 2rem;
+}
+.main-heading{
+    font-family: "bodoni";
+    font-style: italic;
+    font-weight: 600;
+    margin: 3rem 0rem 3rem 0rem;
+    z-index: 999;
+    margin-top: -1.5rem;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    background-color: white;
+}
+.spring-fave{
+    font-size: 1.5rem;
+    font-family: 'Bodoni';
+    font-style: italic;
+    margin: 2rem 0rem 2rem 0rem;
+}
+.center dd{
+    text-align: center;
+    padding: 0.3rem 1rem 0rem 1rem;
+}
+.favorite{
+    padding: 0rem 0rem 3rem 0rem;
+    text-align: center;
+}
+.favorite p{
+    font-weight: normal;
+    font-style: italic;
+}
+.fave-title{
+    /* background-color: rgb(240, 223, 202); */
+    border-radius: 5px;
+    padding: 0rem 2rem 0rem 2rem;
+}
+.favourite{
+    margin-top: 1rem;
+    width: 18rem;
+    height: 25rem;
+}
+.favorite p{
+    margin-bottom: 1rem;
+}
+.team-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.team-heading{
+    font-family: 'bodoni';
+    border-bottom: 1px solid black;
+    padding: 2rem 0rem 1rem 0rem;
+    margin-bottom: 3rem;
+}
+.team-card{
+    width: 18rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-bottom: 0.6rem;
+    border-radius: 10px;
+}
+.team-card img{
+    height: 20rem;
+    border-radius: 10px 10px 0px 0px;
+}
+.team-info{
+    color: #6F4436;
+}
+.team-title{
+    padding: 1rem 0rem 0rem 0rem;
+    text-transform: uppercase;
+    font-weight: bolder !important;
+}
+.team-img{
+    width: 100%;
+}
+
+.teambanner{
+    width: 100vw;
+    border-radius: 0px;
+    filter: brightness(0.9);
+}
+
+.menu-section{
+    font-family: 'bodoni';
+    padding: 4rem 3rem 1rem 3rem;
+    border-bottom: 1.2px solid black;
+}
+.menu-banner{
+    width: 100vw;
+    filter: brightness(0.85);
+    border-radius: 0px;
+}
+.transparent{
+    margin-top: 2rem;
+    color: transparent;
+    border-bottom: 1px solid black;
+    padding: 0rem 8rem 0rem 8rem;
+    z-index: 0;
+}
+/* menu cards */
+.card{
+    font-family: 'Bodoni';
+    font-style: italic;
+    border: none !important;
+    text-align: center;
+}
+.card h2{
+    font-size: 1.5rem;
+}
+.contact{
+    text-align: center;
+}
+
+.contact h1{
+    margin-top: 2rem;
+}
+.contact-heading{
+    margin-top: 3rem;
+    font-family: 'Bodoni';
+    font-style: italic;
+}
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.form-flex label{
+    color: #6f443692;
+}
+form{
+    padding: 0rem 2rem 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-send{
+    border: none;
+    border-radius: 10px;
+    padding: 0rem 3rem 0rem 3rem;
+    margin-top: 2rem;
+    letter-spacing: 0.15em;
+    box-shadow: 0px 2.5px burlywood;
+}
+.iframe{
+    margin: 3rem 0rem 3rem 0rem;
+}
+.teambanner, .menu-banner, .home-banner{
+    width: 100%;
+}
+.footer{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 2rem;
+}
+.footer h6{
+    margin-bottom: 1.5rem;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.footer-content a{
+    text-decoration: none;
+    color: rgb(249, 241, 241);
+    font-weight: bold;
+}
+.contact-flex{
+    justify-content: space-between !important;
+    align-items: start;
+}
+.contactImg img{
+    border-radius: 0px;
+    width: 100vw;
+    height: 31rem;
+}
+.contact-form{
+    width: 100vw;
+    height: 31rem;
+}
+.contact-form p{
+    margin-bottom: 1rem;
+}
+.contact-form input{
+    border-radius: 15px;
+    border: 1px solid #6F4436;
+    width: 15rem;
+    margin-bottom: 1rem;
+    padding: 0.2rem 0.2rem 0.2rem 0.5rem;
+}
+.cnt-page{
+    margin-bottom: 4rem;
+}
+
+
+/* tablet */
+@media screen and (min-width: 600px){
+    .fave-title{
+        padding: 0rem 8rem 0rem 8rem;
+    }
+    .favourite{
+        width: 30rem;
+    }
+    .fave-desc{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .fave-button{
+        padding: 0.5rem 2rem 0.5rem 2rem;
+    }
+    .footer{
+        flex-direction: row;
+    }
+   
+}
+
+@media screen and (min-width: 992px){
+    .home-product-img{
+        width: 45rem;
+        height: 30rem;
+    }
+    .home-contact img{
+        border-radius: 8px 0px 0px 8px;
+    }
+    .home-contact-info{
+        border-radius: 0px 8px 8px 0px;
+    }
+    .home-contact{
+        transform: scale(1.2);
+        flex-direction: row !important;
+    }
+    .contactImg img{
+        width: 50vw;
+    }
+    .contact-form{
+        width: 50vw;
+        padding: 1rem 1rem 0rem 1rem;
+    }
+    .contact-flex{
+        flex-direction: row;
+    }
+    .teambanner, .menu-banner{
+        height: 25rem;
+    }
+    .home-btn{
+        width: 50%;
+    }
+    .about p{
+       padding: 0rem 12rem 0rem 12rem;
+       margin-bottom: 2rem;
+    }
+    .team{
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0rem 2rem 0rem 2rem;
+    }
+   
+}
+
+
+/* desktop */
